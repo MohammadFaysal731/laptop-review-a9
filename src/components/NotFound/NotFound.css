@@ -1,0 +1,9 @@
+.page-404 {
+    display: flex;
+    justify-content: center;
+    align-content: center;
+}
+
+.page-404 img {
+    width: 100%;
+}
