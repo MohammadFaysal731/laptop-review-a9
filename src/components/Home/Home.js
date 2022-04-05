@@ -2,6 +2,7 @@ import React from 'react';
 import { useNavigate } from 'react-router-dom';
 import Comment from '../Comment/Comment';
 import useComment from '../hooks/useComments';
+import { BsFillArrowRightCircleFill } from 'react-icons/bs';
 import './Home.css';
 const Home = () => {
     const [comments, setComments] = useComment([]);
@@ -31,7 +32,7 @@ const Home = () => {
                         ></Comment>)
                     }
                 </div>
-                <button onClick={() => navigate('/reviews')}>See All Reviews</button>
+                <button onClick={() => navigate('/reviews')}>See All Reviews <BsFillArrowRightCircleFill className='see-icon'></BsFillArrowRightCircleFill></button>
             </div>
         </div>
     );

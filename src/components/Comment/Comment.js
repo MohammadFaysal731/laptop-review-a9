@@ -1,4 +1,5 @@
 import React from 'react';
+import { BsStar } from 'react-icons/bs';
 import './Comment.css';
 const Comment = ({ comment }) => {
     const { img, name, comments, rating } = comment;
@@ -8,7 +9,7 @@ const Comment = ({ comment }) => {
             <div className="review-detail">
                 <h4>{name}</h4>
                 <p>{comments}</p>
-                <p>{rating}</p>
+                <p>Rating:{rating}<BsStar className='icon'></BsStar></p>
             </div>
         </div>
     );

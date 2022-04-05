@@ -23,4 +23,12 @@
     padding: 10px 50px;
     position: absolute;
     left: 50%;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+}
+
+.see-icon {
+
+    margin-left: 10px;
 }
