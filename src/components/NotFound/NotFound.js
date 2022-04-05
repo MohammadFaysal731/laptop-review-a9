@@ -3,7 +3,7 @@ import './NotFound.css';
 const NotFound = () => {
     return (
         <div className='page-404'>
-            <img src="https://cdn.mos.cms.futurecdn.net/PuXipAW3AXUzUJ4uYyxPKC-1200-80.jpg" alt="" />
+            <img src="https://klizos.com/wp-content/uploads/funny-404-error-page-GIF-klizo-solutions.gif" alt="" />
         </div>
     );
 };
