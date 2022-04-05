@@ -1,0 +1,9 @@
+.reviews-container {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 30px;
+}
+
+.reviews-container img {
+    width: 100%;
+}

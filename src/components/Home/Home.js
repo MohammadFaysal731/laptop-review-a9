@@ -6,7 +6,7 @@ const Home = () => {
             <div className="home-left">
                 <h3>HP ProBook 440 GB -Wolf Pro Security Edition</h3>
                 <p>Windows 10 pro( available through downgrade rights from Windows 11 pro).</p>
-                <p>11<sup>th</sup>Generation Intel<sup>&copy;</sup>Core <sup>TM</sup>processor.</p>
+                <p>11<sup>th</sup>Generation Intel<sup>&copy;</sup>Core i7 <sup>TM</sup>processor.</p>
                 <p>16 GB memory; 5112 GB SSD storage.</p>
                 <p>14<sup>"</sup>diagonal FHD display.</p>
 
