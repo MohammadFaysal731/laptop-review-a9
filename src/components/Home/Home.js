@@ -1,9 +1,11 @@
 import React from 'react';
+import { useNavigate } from 'react-router-dom';
 import Comment from '../Comment/Comment';
 import useComment from '../hooks/useComments';
 import './Home.css';
 const Home = () => {
     const [comments, setComments] = useComment([]);
+    const navigate = useNavigate();
     return (
         <div className="">
             <div className='home-container'>
@@ -29,7 +31,7 @@ const Home = () => {
                         ></Comment>)
                     }
                 </div>
-                <button className='see-btn'>See All Reviews</button>
+                <button onClick={() => navigate('/reviews')}>See All Reviews</button>
             </div>
         </div>
     );

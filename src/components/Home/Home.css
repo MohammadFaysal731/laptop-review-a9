@@ -11,12 +11,16 @@
 
 .home-reviews h2 {
     text-align: center;
+    position: relative;
 }
 
-.home-reviews .see-btn {
+.home-reviews button {
     background-color: rgb(37, 14, 105);
     color: white;
+    font-weight: 700;
     border: none;
-    border-radius: 20px;
-    padding: 10px;
+    border-radius: 10px;
+    padding: 10px 50px;
+    position: absolute;
+    left: 50%;
 }
