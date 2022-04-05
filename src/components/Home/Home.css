@@ -8,3 +8,15 @@
 .home-container img {
     width: 100%;
 }
+
+.home-reviews h2 {
+    text-align: center;
+}
+
+.home-reviews .see-btn {
+    background-color: rgb(37, 14, 105);
+    color: white;
+    border: none;
+    border-radius: 20px;
+    padding: 10px;
+}
