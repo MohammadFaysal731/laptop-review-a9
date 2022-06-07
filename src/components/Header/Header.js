@@ -4,15 +4,17 @@ import './Header.css';
 const Header = () => {
 
     return (
-        <nav>
-            <CustomLink to='/'></CustomLink>
-            <CustomLink to='/home'>HOME</CustomLink>
-            <CustomLink to='/reviews'>REVIEWS</CustomLink>
-            <CustomLink to='/dashboard'>DASHBOARD</CustomLink>
-            <CustomLink to='/blogs'>BLOGS</CustomLink>
-            <CustomLink to='/about'>ABOUT</CustomLink>
+        <div className="header">
+            <nav >
+                <CustomLink to='/'></CustomLink>
+                <CustomLink to='/home'>HOME</CustomLink>
+                <CustomLink to='/reviews'>REVIEWS</CustomLink>
+                <CustomLink to='/dashboard'>DASHBOARD</CustomLink>
+                <CustomLink to='/blogs'>BLOGS</CustomLink>
+                <CustomLink to='/about'>ABOUT</CustomLink>
 
-        </nav >
+            </nav >
+        </div>
     );
 };
 

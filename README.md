@@ -1,7 +1,10 @@
 # HP ProBook 440 GB laptop 
 
 This is project live link [https://hp-probook-laptop-reviews.netlify.app/]; 
-## Available Scripts
+## Features of this project
+#### &bull;This website is a Laptop Review for the customers. provider.
+#### &bull;This website has a simple bar chart and TwoLevelPieChart.
+#### &bull;This website has a React-Router system.
 
 
 ### `npm start`

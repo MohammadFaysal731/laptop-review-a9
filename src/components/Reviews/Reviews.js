@@ -12,8 +12,6 @@ const Reviews = () => {
                     key={comment.id}
                 ></Comment>)
             }
-
-
         </div>
     );
 };
